@@ -12,6 +12,14 @@ bench get-app $URL_OF_THIS_REPO --branch develop
 bench install-app paybridge
 ```
 
+### Branches
+
+| Branche | Description |
+|---------|-------------|
+| `develop` | Branche principale de développement |
+| `dev-fulgence` | Branche de développement - Fulgence |
+| `dev-fousseni` | Branche de développement - Fousseni |
+
 ### Contributing
 
 This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
