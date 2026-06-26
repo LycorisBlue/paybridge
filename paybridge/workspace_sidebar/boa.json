@@ -1,0 +1,113 @@
+{
+ "app": "paybridge",
+ "creation": "2026-06-10 00:00:00",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "bank",
+ "idx": 0,
+ "items": [
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "dashboard-list",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "BOA Dashboard",
+   "link_to": "BOA Dashboard",
+   "link_type": "Dashboard",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 0,
+   "icon": "file-text",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Lots de Paiement",
+   "link_to": "BOA Payment Batch",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 0,
+   "icon": "activity",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Journal BOA",
+   "link_to": "BOA Payment Log",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 0,
+   "icon": "send",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Messages Domibus",
+   "link_to": "BOA Domibus Message",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 1,
+   "icon": "bar-chart-2",
+   "indent": 1,
+   "keep_closed": 0,
+   "label": "Rapports",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Section Break"
+  },
+  {
+   "child": 1,
+   "collapsible": 1,
+   "icon": "activity",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "BOA Domibus Activity",
+   "link_to": "BOA Domibus Activity",
+   "link_type": "Report",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 1,
+   "collapsible": 1,
+   "icon": "list",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "BOA Payment Summary",
+   "link_to": "BOA Payment Summary",
+   "link_type": "Report",
+   "show_arrow": 0,
+   "type": "Link"
+  },
+  {
+   "child": 0,
+   "collapsible": 0,
+   "icon": "settings",
+   "indent": 0,
+   "keep_closed": 0,
+   "label": "Param\u00e8tres Domibus",
+   "link_to": "BOA Domibus Settings",
+   "link_type": "DocType",
+   "show_arrow": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-12 17:10:00.000000",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "module_onboarding": "BOA Onboarding",
+ "name": "BOA",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "BOA"
+}

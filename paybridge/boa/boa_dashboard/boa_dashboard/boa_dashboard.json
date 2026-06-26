@@ -1,0 +1,33 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "BOA Statut Domibus",
+   "width": "Full"
+  },
+  {
+   "chart": "BOA Lots par Statut",
+   "width": "Half"
+  },
+  {
+   "chart": "BOA Statut Domibus",
+   "width": "Half"
+  },
+  {
+   "chart": "BOA Volume Mensuel",
+   "width": "Full"
+  }
+ ],
+ "creation": "2026-06-10 00:00:00",
+ "dashboard_name": "BOA Dashboard",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 1,
+ "is_standard": 1,
+ "modified": "2026-06-12 16:45:15.585274",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "name": "BOA Dashboard",
+ "owner": "Administrator"
+}

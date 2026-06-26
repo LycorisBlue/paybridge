@@ -1,0 +1,21 @@
+{
+ "creation": "2026-06-11 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Onboarding Step",
+ "idx": 0,
+ "is_complete": 0,
+ "is_single": 0,
+ "is_skipped": 0,
+ "modified": "2026-06-11 00:00:00.000000",
+ "modified_by": "Administrator",
+ "owner": "Administrator",
+ "show_form_tour": 0,
+ "show_full_form": 0,
+ "name": "Create BOA Payment Batch",
+ "title": "Créer un lot de paiement",
+ "action": "Create Entry",
+ "action_label": "Créer un Lot de Paiement",
+ "reference_document": "BOA Payment Batch",
+ "validate_action": 1,
+ "description": "Créez un **Lot de Paiement BOA** : choisissez le type (Facture fournisseur, Note de frais, Bulletin de paie) puis **Récupérer Paiements** pour peupler les bénéficiaires automatiquement. À la **soumission**, le CSV part vers la BOA via Domibus (statut *Queued → Sent → Acknowledged*)."
+}

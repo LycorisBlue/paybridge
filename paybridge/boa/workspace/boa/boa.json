@@ -1,0 +1,199 @@
+{
+ "app": "paybridge",
+ "charts": [
+  {
+   "chart_name": "BOA Lots par Statut"
+  },
+  {
+   "chart_name": "BOA Lots par Type"
+  },
+  {
+   "chart_name": "BOA Statut Domibus"
+  },
+  {
+   "chart_name": "BOA Volume Mensuel"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h4\\\"><b>BOA \u2014 Int\u00e9gration Domibus</b></span>\", \"col\": 12}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h6 text-muted\\\">INDICATEURS DU MOIS</span>\", \"col\": 12}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"BOA Lots ce mois\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"BOA Montant ce mois\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"BOA Lots Livr\u00e9s ce mois\", \"col\": 3}}, {\"type\": \"number_card\", \"data\": {\"number_card_name\": \"BOA Lots en \u00c9chec ce mois\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h6 text-muted\\\">ACC\u00c8S RAPIDE</span>\", \"col\": 12}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Lots de Paiement\", \"col\": 3}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Journaux BOA\", \"col\": 3}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Messages Domibus\", \"col\": 3}}, {\"type\": \"shortcut\", \"data\": {\"shortcut_name\": \"Param\u00e8tres Domibus\", \"col\": 3}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h6 text-muted\\\">STATISTIQUES</span>\", \"col\": 12}}, {\"type\": \"chart\", \"data\": {\"chart_name\": \"BOA Volume Mensuel\", \"col\": 12}}, {\"type\": \"chart\", \"data\": {\"chart_name\": \"BOA Lots par Statut\", \"col\": 6}}, {\"type\": \"chart\", \"data\": {\"chart_name\": \"BOA Lots par Type\", \"col\": 6}}, {\"type\": \"chart\", \"data\": {\"chart_name\": \"BOA Statut Domibus\", \"col\": 12}}, {\"type\": \"spacer\", \"data\": {\"col\": 12}}, {\"type\": \"header\", \"data\": {\"text\": \"<span class=\\\"h6 text-muted\\\">NAVIGATION</span>\", \"col\": 12}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Paiements\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Rapports\", \"col\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Configuration\", \"col\": 4}}]",
+ "creation": "2026-06-10 00:00:00",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "hide_custom": 0,
+ "icon": "bank",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "BOA",
+ "link_type": "DocType",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Paiements",
+   "link_count": 3,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "description": "G\u00e9rer les lots de paiements BOA",
+   "hidden": 0,
+   "icon": "file-text",
+   "is_query_report": 0,
+   "label": "Lot de Paiement BOA",
+   "link_count": 0,
+   "link_to": "BOA Payment Batch",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "description": "Historique des \u00e9changes Domibus",
+   "hidden": 0,
+   "icon": "activity",
+   "is_query_report": 0,
+   "label": "Journal de Paiement BOA",
+   "link_count": 0,
+   "link_to": "BOA Payment Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "Messages eBMS3 \u00e9chang\u00e9s via Domibus",
+   "hidden": 0,
+   "icon": "send",
+   "is_query_report": 0,
+   "label": "Message Domibus BOA",
+   "link_count": 0,
+   "link_to": "BOA Domibus Message",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Rapports",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "description": "Synth\u00e8se des lots : confirm\u00e9s, rejet\u00e9s, \u00e9checs, taux de confirmation",
+   "hidden": 0,
+   "icon": "list",
+   "is_query_report": 1,
+   "label": "Synth\u00e8se des Paiements",
+   "link_count": 0,
+   "link_to": "BOA Payment Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "description": "Volum\u00e9trie et latence des \u00e9changes Domibus",
+   "hidden": 0,
+   "icon": "activity",
+   "is_query_report": 1,
+   "label": "Activit\u00e9 Domibus",
+   "link_count": 0,
+   "link_to": "BOA Domibus Activity",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configuration",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "description": "Configurer la connexion Domibus",
+   "hidden": 0,
+   "icon": "settings",
+   "is_query_report": 0,
+   "label": "Param\u00e8tres Domibus BOA",
+   "link_count": 0,
+   "link_to": "BOA Domibus Settings",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  }
+ ],
+ "modified": "2026-06-12 15:15:10.452859",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "name": "BOA",
+ "number_cards": [
+  {
+   "label": "Lots ce mois",
+   "number_card_name": "BOA Lots ce mois"
+  },
+  {
+   "label": "Montant Total ce mois",
+   "number_card_name": "BOA Montant ce mois"
+  },
+  {
+   "label": "Lots Confirm\u00e9s ce mois",
+   "number_card_name": "BOA Lots Livr\u00e9s ce mois"
+  },
+  {
+   "label": "Lots en \u00c9chec / Rejet ce mois",
+   "number_card_name": "BOA Lots en \u00c9chec ce mois"
+  }
+ ],
+ "owner": "Administrator",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "BOA Manager"
+  },
+  {
+   "role": "BOA User"
+  },
+  {
+   "role": "System Manager"
+  }
+ ],
+ "sequence_id": 10.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "icon": "file",
+   "label": "Lots de Paiement",
+   "link_to": "BOA Payment Batch",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "icon": "check-circle",
+   "label": "Journaux BOA",
+   "link_to": "BOA Payment Log",
+   "type": "DocType"
+  },
+  {
+   "color": "Purple",
+   "doc_view": "List",
+   "icon": "mail",
+   "label": "Messages Domibus",
+   "link_to": "BOA Domibus Message",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "icon": "settings",
+   "label": "Param\u00e8tres Domibus",
+   "link_to": "BOA Domibus Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "BOA",
+ "type": "Workspace"
+}
