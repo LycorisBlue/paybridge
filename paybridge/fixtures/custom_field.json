@@ -1,0 +1,61 @@
+[
+ {
+  "doctype": "Custom Field",
+  "name": "Bank Account-custom_boa_section",
+  "dt": "Bank Account",
+  "fieldname": "custom_boa_section",
+  "fieldtype": "Section Break",
+  "label": "Coordonnées BOA / Domibus",
+  "insert_after": "branch_code",
+  "collapsible": 1,
+  "module": "BOA"
+ },
+ {
+  "doctype": "Custom Field",
+  "name": "Bank Account-custom_rib",
+  "dt": "Bank Account",
+  "fieldname": "custom_rib",
+  "fieldtype": "Data",
+  "label": "RIB",
+  "description": "RIB / BBAN UEMOA complet (24 caractères : code banque 5 + code guichet 5 + numéro de compte 12 + clé RIB 2). Source unique des virements BOA ; le code banque (5 premiers caractères) en est dérivé. Distinct du « N° de compte » standard. Si vide, dérivé de l'IBAN.",
+  "insert_after": "custom_boa_section",
+  "translatable": 0,
+  "module": "BOA"
+ },
+ {
+  "doctype": "Custom Field",
+  "name": "Bank Account-custom_bank_code",
+  "dt": "Bank Account",
+  "fieldname": "custom_bank_code",
+  "fieldtype": "Data",
+  "label": "Code banque",
+  "description": "Code banque sur 5 caractères (colonne « Code bban » du fichier H2H). Laisser vide pour le dériver automatiquement des 5 premiers caractères du RIB ; à ne renseigner que si le code banque diffère de ces 5 premiers caractères.",
+  "insert_after": "custom_rib",
+  "translatable": 0,
+  "module": "BOA"
+ },
+ {
+  "doctype": "Custom Field",
+  "name": "Bank Account-custom_swift_code",
+  "dt": "Bank Account",
+  "fieldname": "custom_swift_code",
+  "fieldtype": "Data",
+  "label": "Code SWIFT / BIC",
+  "description": "Code BIC/SWIFT de la banque du bénéficiaire (colonne 7 du fichier H2H). Saisi sur le compte car on paie des bénéficiaires de banques variées. Si vide, hérité de la banque liée (Bank.swift_number).",
+  "insert_after": "custom_bank_code",
+  "translatable": 0,
+  "module": "BOA"
+ },
+ {
+  "doctype": "Custom Field",
+  "name": "Employee-custom_boa_bank_account",
+  "dt": "Employee",
+  "fieldname": "custom_boa_bank_account",
+  "fieldtype": "Link",
+  "options": "Bank Account",
+  "label": "Compte Bancaire (Virement BOA)",
+  "description": "Compte bancaire utilisé pour les virements de salaire via BOA/Domibus. Source unique des coordonnées (RIB/SWIFT) ; ERPNext n'offre pas de lien natif Employee → Bank Account.",
+  "insert_after": "bank_ac_no",
+  "module": "BOA"
+ }
+]

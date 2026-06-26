@@ -5,21 +5,25 @@ app_description = "Passerelle de paiement"
 app_email = "developers@amoaman.com"
 app_license = "mit"
 
+# Fixtures
+fixtures = [
+	"Role",
+	{"dt": "Custom Field", "filters": [["module", "=", "BOA"]]},
+]
+
 # Apps
 # ------------------
 
 # required_apps = []
 
-# Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "paybridge",
-# 		"logo": "/assets/paybridge/logo.png",
-# 		"title": "PayBridge",
-# 		"route": "/paybridge",
-# 		"has_permission": "paybridge.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": "paybridge",
+		"logo": "/assets/paybridge/images/bank_of_africa_cte_d_ivoire_logo.jpeg",
+		"title": "BOA",
+		"route": "/paybridge/BOA",
+	}
+]
 
 # Includes in <head>
 # ------------------
@@ -137,34 +141,32 @@ app_license = "mit"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-# 	}
-# }
+doc_events = {
+	# Le Bank Account est la source unique des coordonnées BOA d'un tiers :
+	# on y valide le RIB (custom_rib) et le code banque (custom_bank_code) à l'enregistrement.
+	"Bank Account": {
+		"validate": [
+			"paybridge.boa.bank_account.validate_rib",
+			"paybridge.boa.bank_account.validate_bank_code",
+		],
+	},
+}
 
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"paybridge.tasks.all"
-# 	],
-# 	"daily": [
-# 		"paybridge.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"paybridge.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"paybridge.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"paybridge.tasks.monthly"
-# 	],
-# }
+scheduler_events = {
+    "cron": {
+        # Vérification statut Domibus toutes les 10 minutes
+        "*/10 * * * *": [
+            "paybridge.boa.api.scheduled_check_status",
+        ],
+        # Récupération messages entrants toutes les 5 minutes
+        "*/5 * * * *": [
+            "paybridge.boa.api.scheduled_receive_messages",
+        ],
+    },
+}
 
 # Testing
 # -------
