@@ -1,0 +1,57 @@
+[
+  {
+    "doctype": "Bank Account",
+    "account_name": "BOA - ORANGE CI - Bank of Africa Côte d'Ivoire",
+    "bank": "Bank of Africa Côte d'Ivoire",
+    "party_type": "Supplier",
+    "party": "ORANGE CI",
+    "is_default": 1,
+    "custom_rib": "CI0610200298765432109847",
+    "custom_bank_code": "01089",
+    "custom_swift_code": "ORBKBFOG"
+  },
+  {
+    "doctype": "Bank Account",
+    "account_name": "BOA - YANGO - Bank of Africa Côte d'Ivoire",
+    "bank": "Bank of Africa Côte d'Ivoire",
+    "party_type": "Supplier",
+    "party": "YANGO",
+    "is_default": 1,
+    "custom_rib": "CI0610200210000000000111",
+    "custom_bank_code": "01089",
+    "custom_swift_code": "ORBKBFOG"
+  },
+  {
+    "doctype": "Bank Account",
+    "account_name": "BOA - SUNU ASSURANCE - Bank of Africa Côte d'Ivoire",
+    "bank": "Bank of Africa Côte d'Ivoire",
+    "party_type": "Supplier",
+    "party": "SUNU ASSURANCE",
+    "is_default": 1,
+    "custom_rib": "CI0610200220000000000222",
+    "custom_bank_code": "01089",
+    "custom_swift_code": "ORBKBFOG"
+  },
+  {
+    "doctype": "Bank Account",
+    "account_name": "BOA - AIRFRANCE - Bank of Africa Côte d'Ivoire",
+    "bank": "Bank of Africa Côte d'Ivoire",
+    "party_type": "Supplier",
+    "party": "AIRFRANCE",
+    "is_default": 1,
+    "custom_rib": "CI0610200230000000000333",
+    "custom_bank_code": "01089",
+    "custom_swift_code": "ORBKBFOG"
+  },
+  {
+    "doctype": "Bank Account",
+    "account_name": "BOA - ACLYK - Bank of Africa Côte d'Ivoire",
+    "bank": "Bank of Africa Côte d'Ivoire",
+    "party_type": "Supplier",
+    "party": "ACLYK",
+    "is_default": 1,
+    "custom_rib": "CI0610200240000000000444",
+    "custom_bank_code": "01089",
+    "custom_swift_code": "ORBKBFOG"
+  }
+]

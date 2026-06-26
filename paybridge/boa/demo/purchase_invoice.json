@@ -1,0 +1,4202 @@
+[
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-01-08",
+    "set_posting_time": 1,
+    "due_date": "2026-02-07",
+    "bill_no": "DEMO-0001",
+    "bill_date": "2026-01-08",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 5,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-01-09",
+    "set_posting_time": 1,
+    "due_date": "2026-02-08",
+    "bill_no": "DEMO-0002",
+    "bill_date": "2026-01-09",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-01-10",
+    "set_posting_time": 1,
+    "due_date": "2026-02-09",
+    "bill_no": "DEMO-0003",
+    "bill_date": "2026-01-10",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-01-11",
+    "set_posting_time": 1,
+    "due_date": "2026-02-10",
+    "bill_no": "DEMO-0004",
+    "bill_date": "2026-01-11",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-01-13",
+    "set_posting_time": 1,
+    "due_date": "2026-02-12",
+    "bill_no": "DEMO-0005",
+    "bill_date": "2026-01-13",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-01-14",
+    "set_posting_time": 1,
+    "due_date": "2026-02-13",
+    "bill_no": "DEMO-0006",
+    "bill_date": "2026-01-14",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 5,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-01-15",
+    "set_posting_time": 1,
+    "due_date": "2026-02-14",
+    "bill_no": "DEMO-0007",
+    "bill_date": "2026-01-15",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-01-17",
+    "set_posting_time": 1,
+    "due_date": "2026-02-16",
+    "bill_no": "DEMO-0008",
+    "bill_date": "2026-01-17",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-01-18",
+    "set_posting_time": 1,
+    "due_date": "2026-02-17",
+    "bill_no": "DEMO-0009",
+    "bill_date": "2026-01-18",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-01-19",
+    "set_posting_time": 1,
+    "due_date": "2026-02-18",
+    "bill_no": "DEMO-0010",
+    "bill_date": "2026-01-19",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-01-21",
+    "set_posting_time": 1,
+    "due_date": "2026-02-20",
+    "bill_no": "DEMO-0011",
+    "bill_date": "2026-01-21",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-01-22",
+    "set_posting_time": 1,
+    "due_date": "2026-02-21",
+    "bill_no": "DEMO-0012",
+    "bill_date": "2026-01-22",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-01-23",
+    "set_posting_time": 1,
+    "due_date": "2026-02-22",
+    "bill_no": "DEMO-0013",
+    "bill_date": "2026-01-23",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-01-24",
+    "set_posting_time": 1,
+    "due_date": "2026-02-23",
+    "bill_no": "DEMO-0014",
+    "bill_date": "2026-01-24",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-01-26",
+    "set_posting_time": 1,
+    "due_date": "2026-02-25",
+    "bill_no": "DEMO-0015",
+    "bill_date": "2026-01-26",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-01-27",
+    "set_posting_time": 1,
+    "due_date": "2026-02-26",
+    "bill_no": "DEMO-0016",
+    "bill_date": "2026-01-27",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-01-28",
+    "set_posting_time": 1,
+    "due_date": "2026-02-27",
+    "bill_no": "DEMO-0017",
+    "bill_date": "2026-01-28",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-01-30",
+    "set_posting_time": 1,
+    "due_date": "2026-03-01",
+    "bill_no": "DEMO-0018",
+    "bill_date": "2026-01-30",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-01-31",
+    "set_posting_time": 1,
+    "due_date": "2026-03-02",
+    "bill_no": "DEMO-0019",
+    "bill_date": "2026-01-31",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-02-01",
+    "set_posting_time": 1,
+    "due_date": "2026-03-03",
+    "bill_no": "DEMO-0020",
+    "bill_date": "2026-02-01",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-02-03",
+    "set_posting_time": 1,
+    "due_date": "2026-03-05",
+    "bill_no": "DEMO-0021",
+    "bill_date": "2026-02-03",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-02-04",
+    "set_posting_time": 1,
+    "due_date": "2026-03-06",
+    "bill_no": "DEMO-0022",
+    "bill_date": "2026-02-04",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-02-05",
+    "set_posting_time": 1,
+    "due_date": "2026-03-07",
+    "bill_no": "DEMO-0023",
+    "bill_date": "2026-02-05",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-02-06",
+    "set_posting_time": 1,
+    "due_date": "2026-03-08",
+    "bill_no": "DEMO-0024",
+    "bill_date": "2026-02-06",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 5,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-02-08",
+    "set_posting_time": 1,
+    "due_date": "2026-03-10",
+    "bill_no": "DEMO-0025",
+    "bill_date": "2026-02-08",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-02-09",
+    "set_posting_time": 1,
+    "due_date": "2026-03-11",
+    "bill_no": "DEMO-0026",
+    "bill_date": "2026-02-09",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-02-10",
+    "set_posting_time": 1,
+    "due_date": "2026-03-12",
+    "bill_no": "DEMO-0027",
+    "bill_date": "2026-02-10",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-02-12",
+    "set_posting_time": 1,
+    "due_date": "2026-03-14",
+    "bill_no": "DEMO-0028",
+    "bill_date": "2026-02-12",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-02-13",
+    "set_posting_time": 1,
+    "due_date": "2026-03-15",
+    "bill_no": "DEMO-0029",
+    "bill_date": "2026-02-13",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-02-14",
+    "set_posting_time": 1,
+    "due_date": "2026-03-16",
+    "bill_no": "DEMO-0030",
+    "bill_date": "2026-02-14",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-02-16",
+    "set_posting_time": 1,
+    "due_date": "2026-03-18",
+    "bill_no": "DEMO-0031",
+    "bill_date": "2026-02-16",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-02-17",
+    "set_posting_time": 1,
+    "due_date": "2026-03-19",
+    "bill_no": "DEMO-0032",
+    "bill_date": "2026-02-17",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-02-18",
+    "set_posting_time": 1,
+    "due_date": "2026-03-20",
+    "bill_no": "DEMO-0033",
+    "bill_date": "2026-02-18",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 1,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-02-19",
+    "set_posting_time": 1,
+    "due_date": "2026-03-21",
+    "bill_no": "DEMO-0034",
+    "bill_date": "2026-02-19",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-02-21",
+    "set_posting_time": 1,
+    "due_date": "2026-03-23",
+    "bill_no": "DEMO-0035",
+    "bill_date": "2026-02-21",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-02-22",
+    "set_posting_time": 1,
+    "due_date": "2026-03-24",
+    "bill_no": "DEMO-0036",
+    "bill_date": "2026-02-22",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-02-23",
+    "set_posting_time": 1,
+    "due_date": "2026-03-25",
+    "bill_no": "DEMO-0037",
+    "bill_date": "2026-02-23",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-02-25",
+    "set_posting_time": 1,
+    "due_date": "2026-03-27",
+    "bill_no": "DEMO-0038",
+    "bill_date": "2026-02-25",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-02-26",
+    "set_posting_time": 1,
+    "due_date": "2026-03-28",
+    "bill_no": "DEMO-0039",
+    "bill_date": "2026-02-26",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 5,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-02-27",
+    "set_posting_time": 1,
+    "due_date": "2026-03-29",
+    "bill_no": "DEMO-0040",
+    "bill_date": "2026-02-27",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-03-01",
+    "set_posting_time": 1,
+    "due_date": "2026-03-31",
+    "bill_no": "DEMO-0041",
+    "bill_date": "2026-03-01",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-03-02",
+    "set_posting_time": 1,
+    "due_date": "2026-04-01",
+    "bill_no": "DEMO-0042",
+    "bill_date": "2026-03-02",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-03-03",
+    "set_posting_time": 1,
+    "due_date": "2026-04-02",
+    "bill_no": "DEMO-0043",
+    "bill_date": "2026-03-03",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-03-04",
+    "set_posting_time": 1,
+    "due_date": "2026-04-03",
+    "bill_no": "DEMO-0044",
+    "bill_date": "2026-03-04",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-03-06",
+    "set_posting_time": 1,
+    "due_date": "2026-04-05",
+    "bill_no": "DEMO-0045",
+    "bill_date": "2026-03-06",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-03-07",
+    "set_posting_time": 1,
+    "due_date": "2026-04-06",
+    "bill_no": "DEMO-0046",
+    "bill_date": "2026-03-07",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-03-08",
+    "set_posting_time": 1,
+    "due_date": "2026-04-07",
+    "bill_no": "DEMO-0047",
+    "bill_date": "2026-03-08",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-03-10",
+    "set_posting_time": 1,
+    "due_date": "2026-04-09",
+    "bill_no": "DEMO-0048",
+    "bill_date": "2026-03-10",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-03-11",
+    "set_posting_time": 1,
+    "due_date": "2026-04-10",
+    "bill_no": "DEMO-0049",
+    "bill_date": "2026-03-11",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-03-12",
+    "set_posting_time": 1,
+    "due_date": "2026-04-11",
+    "bill_no": "DEMO-0050",
+    "bill_date": "2026-03-12",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-03-14",
+    "set_posting_time": 1,
+    "due_date": "2026-04-13",
+    "bill_no": "DEMO-0051",
+    "bill_date": "2026-03-14",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-03-15",
+    "set_posting_time": 1,
+    "due_date": "2026-04-14",
+    "bill_no": "DEMO-0052",
+    "bill_date": "2026-03-15",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-03-16",
+    "set_posting_time": 1,
+    "due_date": "2026-04-15",
+    "bill_no": "DEMO-0053",
+    "bill_date": "2026-03-16",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-03-17",
+    "set_posting_time": 1,
+    "due_date": "2026-04-16",
+    "bill_no": "DEMO-0054",
+    "bill_date": "2026-03-17",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-03-19",
+    "set_posting_time": 1,
+    "due_date": "2026-04-18",
+    "bill_no": "DEMO-0055",
+    "bill_date": "2026-03-19",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 1,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-03-20",
+    "set_posting_time": 1,
+    "due_date": "2026-04-19",
+    "bill_no": "DEMO-0056",
+    "bill_date": "2026-03-20",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-03-21",
+    "set_posting_time": 1,
+    "due_date": "2026-04-20",
+    "bill_no": "DEMO-0057",
+    "bill_date": "2026-03-21",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-03-23",
+    "set_posting_time": 1,
+    "due_date": "2026-04-22",
+    "bill_no": "DEMO-0058",
+    "bill_date": "2026-03-23",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-03-24",
+    "set_posting_time": 1,
+    "due_date": "2026-04-23",
+    "bill_no": "DEMO-0059",
+    "bill_date": "2026-03-24",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-03-25",
+    "set_posting_time": 1,
+    "due_date": "2026-04-24",
+    "bill_no": "DEMO-0060",
+    "bill_date": "2026-03-25",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-03-27",
+    "set_posting_time": 1,
+    "due_date": "2026-04-26",
+    "bill_no": "DEMO-0061",
+    "bill_date": "2026-03-27",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 1,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-03-28",
+    "set_posting_time": 1,
+    "due_date": "2026-04-27",
+    "bill_no": "DEMO-0062",
+    "bill_date": "2026-03-28",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-03-29",
+    "set_posting_time": 1,
+    "due_date": "2026-04-28",
+    "bill_no": "DEMO-0063",
+    "bill_date": "2026-03-29",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-03-30",
+    "set_posting_time": 1,
+    "due_date": "2026-04-29",
+    "bill_no": "DEMO-0064",
+    "bill_date": "2026-03-30",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-04-01",
+    "set_posting_time": 1,
+    "due_date": "2026-05-01",
+    "bill_no": "DEMO-0065",
+    "bill_date": "2026-04-01",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-04-02",
+    "set_posting_time": 1,
+    "due_date": "2026-05-02",
+    "bill_no": "DEMO-0066",
+    "bill_date": "2026-04-02",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-04-03",
+    "set_posting_time": 1,
+    "due_date": "2026-05-03",
+    "bill_no": "DEMO-0067",
+    "bill_date": "2026-04-03",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-04-05",
+    "set_posting_time": 1,
+    "due_date": "2026-05-05",
+    "bill_no": "DEMO-0068",
+    "bill_date": "2026-04-05",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 1,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-04-06",
+    "set_posting_time": 1,
+    "due_date": "2026-05-06",
+    "bill_no": "DEMO-0069",
+    "bill_date": "2026-04-06",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-04-07",
+    "set_posting_time": 1,
+    "due_date": "2026-05-07",
+    "bill_no": "DEMO-0070",
+    "bill_date": "2026-04-07",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-04-09",
+    "set_posting_time": 1,
+    "due_date": "2026-05-09",
+    "bill_no": "DEMO-0071",
+    "bill_date": "2026-04-09",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-04-10",
+    "set_posting_time": 1,
+    "due_date": "2026-05-10",
+    "bill_no": "DEMO-0072",
+    "bill_date": "2026-04-10",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-04-11",
+    "set_posting_time": 1,
+    "due_date": "2026-05-11",
+    "bill_no": "DEMO-0073",
+    "bill_date": "2026-04-11",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-04-12",
+    "set_posting_time": 1,
+    "due_date": "2026-05-12",
+    "bill_no": "DEMO-0074",
+    "bill_date": "2026-04-12",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-04-14",
+    "set_posting_time": 1,
+    "due_date": "2026-05-14",
+    "bill_no": "DEMO-0075",
+    "bill_date": "2026-04-14",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-04-15",
+    "set_posting_time": 1,
+    "due_date": "2026-05-15",
+    "bill_no": "DEMO-0076",
+    "bill_date": "2026-04-15",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-04-16",
+    "set_posting_time": 1,
+    "due_date": "2026-05-16",
+    "bill_no": "DEMO-0077",
+    "bill_date": "2026-04-16",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 1,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-04-18",
+    "set_posting_time": 1,
+    "due_date": "2026-05-18",
+    "bill_no": "DEMO-0078",
+    "bill_date": "2026-04-18",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-04-19",
+    "set_posting_time": 1,
+    "due_date": "2026-05-19",
+    "bill_no": "DEMO-0079",
+    "bill_date": "2026-04-19",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-04-20",
+    "set_posting_time": 1,
+    "due_date": "2026-05-20",
+    "bill_no": "DEMO-0080",
+    "bill_date": "2026-04-20",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-04-22",
+    "set_posting_time": 1,
+    "due_date": "2026-05-22",
+    "bill_no": "DEMO-0081",
+    "bill_date": "2026-04-22",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-04-23",
+    "set_posting_time": 1,
+    "due_date": "2026-05-23",
+    "bill_no": "DEMO-0082",
+    "bill_date": "2026-04-23",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 7,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-04-24",
+    "set_posting_time": 1,
+    "due_date": "2026-05-24",
+    "bill_no": "DEMO-0083",
+    "bill_date": "2026-04-24",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-04-25",
+    "set_posting_time": 1,
+    "due_date": "2026-05-25",
+    "bill_no": "DEMO-0084",
+    "bill_date": "2026-04-25",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-04-27",
+    "set_posting_time": 1,
+    "due_date": "2026-05-27",
+    "bill_no": "DEMO-0085",
+    "bill_date": "2026-04-27",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-04-28",
+    "set_posting_time": 1,
+    "due_date": "2026-05-28",
+    "bill_no": "DEMO-0086",
+    "bill_date": "2026-04-28",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-04-29",
+    "set_posting_time": 1,
+    "due_date": "2026-05-29",
+    "bill_no": "DEMO-0087",
+    "bill_date": "2026-04-29",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-05-01",
+    "set_posting_time": 1,
+    "due_date": "2026-05-31",
+    "bill_no": "DEMO-0088",
+    "bill_date": "2026-05-01",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-05-02",
+    "set_posting_time": 1,
+    "due_date": "2026-06-01",
+    "bill_no": "DEMO-0089",
+    "bill_date": "2026-05-02",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-05-03",
+    "set_posting_time": 1,
+    "due_date": "2026-06-02",
+    "bill_no": "DEMO-0090",
+    "bill_date": "2026-05-03",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-05-05",
+    "set_posting_time": 1,
+    "due_date": "2026-06-04",
+    "bill_no": "DEMO-0091",
+    "bill_date": "2026-05-05",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 1,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-05-06",
+    "set_posting_time": 1,
+    "due_date": "2026-06-05",
+    "bill_no": "DEMO-0092",
+    "bill_date": "2026-05-06",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-05-07",
+    "set_posting_time": 1,
+    "due_date": "2026-06-06",
+    "bill_no": "DEMO-0093",
+    "bill_date": "2026-05-07",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-05-08",
+    "set_posting_time": 1,
+    "due_date": "2026-06-07",
+    "bill_no": "DEMO-0094",
+    "bill_date": "2026-05-08",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-05-10",
+    "set_posting_time": 1,
+    "due_date": "2026-06-09",
+    "bill_no": "DEMO-0095",
+    "bill_date": "2026-05-10",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-05-11",
+    "set_posting_time": 1,
+    "due_date": "2026-06-10",
+    "bill_no": "DEMO-0096",
+    "bill_date": "2026-05-11",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-05-12",
+    "set_posting_time": 1,
+    "due_date": "2026-06-11",
+    "bill_no": "DEMO-0097",
+    "bill_date": "2026-05-12",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-05-14",
+    "set_posting_time": 1,
+    "due_date": "2026-06-13",
+    "bill_no": "DEMO-0098",
+    "bill_date": "2026-05-14",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-05-15",
+    "set_posting_time": 1,
+    "due_date": "2026-06-14",
+    "bill_no": "DEMO-0099",
+    "bill_date": "2026-05-15",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-05-16",
+    "set_posting_time": 1,
+    "due_date": "2026-06-15",
+    "bill_no": "DEMO-0100",
+    "bill_date": "2026-05-16",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 1,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-05-18",
+    "set_posting_time": 1,
+    "due_date": "2026-06-17",
+    "bill_no": "DEMO-0101",
+    "bill_date": "2026-05-18",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-05-19",
+    "set_posting_time": 1,
+    "due_date": "2026-06-18",
+    "bill_no": "DEMO-0102",
+    "bill_date": "2026-05-19",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-05-20",
+    "set_posting_time": 1,
+    "due_date": "2026-06-19",
+    "bill_no": "DEMO-0103",
+    "bill_date": "2026-05-20",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 7,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-05-21",
+    "set_posting_time": 1,
+    "due_date": "2026-06-20",
+    "bill_no": "DEMO-0104",
+    "bill_date": "2026-05-21",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-05-23",
+    "set_posting_time": 1,
+    "due_date": "2026-06-22",
+    "bill_no": "DEMO-0105",
+    "bill_date": "2026-05-23",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-05-24",
+    "set_posting_time": 1,
+    "due_date": "2026-06-23",
+    "bill_no": "DEMO-0106",
+    "bill_date": "2026-05-24",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-05-25",
+    "set_posting_time": 1,
+    "due_date": "2026-06-24",
+    "bill_no": "DEMO-0107",
+    "bill_date": "2026-05-25",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-05-27",
+    "set_posting_time": 1,
+    "due_date": "2026-06-26",
+    "bill_no": "DEMO-0108",
+    "bill_date": "2026-05-27",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-05-28",
+    "set_posting_time": 1,
+    "due_date": "2026-06-27",
+    "bill_no": "DEMO-0109",
+    "bill_date": "2026-05-28",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 3,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-05-29",
+    "set_posting_time": 1,
+    "due_date": "2026-06-28",
+    "bill_no": "DEMO-0110",
+    "bill_date": "2026-05-29",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-05-31",
+    "set_posting_time": 1,
+    "due_date": "2026-06-30",
+    "bill_no": "DEMO-0111",
+    "bill_date": "2026-05-31",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 2,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-06-01",
+    "set_posting_time": 1,
+    "due_date": "2026-07-01",
+    "bill_no": "DEMO-0112",
+    "bill_date": "2026-06-01",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Formation-2026-00001",
+        "qty": 5,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-06-02",
+    "set_posting_time": 1,
+    "due_date": "2026-07-02",
+    "bill_no": "DEMO-0113",
+    "bill_date": "2026-06-02",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00015",
+        "qty": 1,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 2,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-06-03",
+    "set_posting_time": 1,
+    "due_date": "2026-07-03",
+    "bill_no": "DEMO-0114",
+    "bill_date": "2026-06-03",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-06-05",
+    "set_posting_time": 1,
+    "due_date": "2026-07-05",
+    "bill_no": "DEMO-0115",
+    "bill_date": "2026-06-05",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 1,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ORANGE CI",
+    "posting_date": "2026-06-06",
+    "set_posting_time": 1,
+    "due_date": "2026-07-06",
+    "bill_no": "DEMO-0116",
+    "bill_date": "2026-06-06",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "YANGO",
+    "posting_date": "2026-06-07",
+    "set_posting_time": 1,
+    "due_date": "2026-07-07",
+    "bill_no": "DEMO-0117",
+    "bill_date": "2026-06-07",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 10,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 7,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00018",
+        "qty": 10,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 2500000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "SUNU ASSURANCE",
+    "posting_date": "2026-06-09",
+    "set_posting_time": 1,
+    "due_date": "2026-07-09",
+    "bill_no": "DEMO-0118",
+    "bill_date": "2026-06-09",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00006",
+        "qty": 3,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 175000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "AIRFRANCE",
+    "posting_date": "2026-06-10",
+    "set_posting_time": 1,
+    "due_date": "2026-07-10",
+    "bill_no": "DEMO-0119",
+    "bill_date": "2026-06-10",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 2,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "Solution-P2U-2026-00001",
+        "qty": 3,
+        "uom": "Unité",
+        "conversion_factor": 1,
+        "rate": 750000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00024",
+        "qty": 5,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 150000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  },
+  {
+    "doctype": "Purchase Invoice",
+    "company": "AMOAMAN & ASSOCIES",
+    "supplier": "ACLYK",
+    "posting_date": "2026-06-11",
+    "set_posting_time": 1,
+    "due_date": "2026-07-11",
+    "bill_no": "DEMO-0120",
+    "bill_date": "2026-06-11",
+    "currency": "XOF",
+    "conversion_rate": 1,
+    "buying_price_list": "Achat standard",
+    "credit_to": "4011 - Fournisseurs - A&A",
+    "update_stock": 0,
+    "items": [
+      {
+        "item_code": "PSV-2026-00017",
+        "qty": 5,
+        "uom": "TARIF",
+        "conversion_factor": 1,
+        "rate": 1800000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      },
+      {
+        "item_code": "PSV-2026-00013",
+        "qty": 10,
+        "uom": "JRS",
+        "conversion_factor": 1,
+        "rate": 200000,
+        "expense_account": "6011 - Dans la Région - A&A",
+        "cost_center": "Principal - A&A"
+      }
+    ]
+  }
+]

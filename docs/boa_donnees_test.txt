@@ -1,0 +1,113 @@
+===============================================================================
+ DONNEES DE TEST — Champs Bank Account du module BOA
+ Champs concernes : custom_rib (RIB), custom_bank_code (Code banque),
+                    custom_swift_code (Code SWIFT / BIC)
+ Donnees FICTIVES, au format UEMOA / BOA Cote d'Ivoire.
+===============================================================================
+
+-------------------------------------------------------------------------------
+ RAPPEL DES FORMATS ET REGLES DE VALIDATION
+-------------------------------------------------------------------------------
+- RIB (custom_rib) : 24 caracteres
+    = code banque (5) + code guichet (5) + n. de compte (12) + cle (2)
+    Normalise (espaces retires, MAJUSCULES).
+    BLOQUE si non-alphanumerique ; AVERTIT (non bloquant) si longueur != 24.
+
+- Code banque (custom_bank_code) : 5 caracteres.
+    BLOQUE si non-alphanumerique ; AVERTIT si longueur != 5.
+    Si VIDE -> derive automatiquement de custom_rib[:5].
+    A ne saisir que si le code banque differe des 5 premiers car. du RIB.
+
+- SWIFT / BIC (custom_swift_code) : pas de validation de format.
+    BIC valide = 8 car. (AAAACCLL) ou 11 (AAAACCLLXXX)
+    = 4 banque + 2 pays + 2 localite [+ 3 agence].
+
+
+-------------------------------------------------------------------------------
+ CAS NOMINAUX (avec resultat attendu dans le CSV H2H)
+-------------------------------------------------------------------------------
+
+[CAS 1] Compte emetteur (societe) — code banque derive
+  custom_rib         : CI0590001001234567890123
+  custom_bank_code   : (vide)
+  custom_swift_code  : AFRICIAB
+  iban               : -
+  --> RIB (compte)   : CI0590001001234567890123
+  --> Code bban      : CI059   (derive de custom_rib[:5])
+  --> SWIFT          : AFRICIAB
+
+[CAS 2] Beneficiaire dans une autre banque — code banque derive
+  custom_rib         : CI0080111301134291200589
+  custom_bank_code   : (vide)
+  custom_swift_code  : SGCICIAB
+  iban               : -
+  --> RIB (compte)   : CI0080111301134291200589
+  --> Code bban      : CI008   (derive)
+  --> SWIFT          : SGCICIAB
+
+[CAS 3] OVERRIDE du code banque (differe des 5 premiers car. du RIB)
+  custom_rib         : CI0610200298765432109847
+  custom_bank_code   : 01089
+  custom_swift_code  : ECOCCIAB
+  iban               : -
+  --> RIB (compte)   : CI0610200298765432109847
+  --> Code bban      : 01089   (force, et non CI061)
+  --> SWIFT          : ECOCCIAB
+
+[CAS 4] REPLI sur l'IBAN (custom_rib vide)
+  custom_rib         : (vide)
+  custom_bank_code   : (vide)
+  custom_swift_code  : AFRICIABXXX
+  iban               : CI93CI0080111301134291200589
+  --> RIB (compte)   : CI0080111301134291200589   (= iban[4:])
+  --> Code bban      : CI008   (derive)
+  --> SWIFT          : AFRICIABXXX
+
+[CAS 5] NORMALISATION (minuscules + espaces dans le RIB)
+  custom_rib         : ci05 9000 1001 2345 6789 0123
+  custom_bank_code   : (vide)
+  custom_swift_code  : AFRICIAB
+  iban               : -
+  --> RIB (compte)   : CI0590001001234567890123   (espaces retires, MAJ)
+  --> Code bban      : CI059
+  --> SWIFT          : AFRICIAB
+
+
+-------------------------------------------------------------------------------
+ CAS LIMITES / ERREURS (pour tester la validation)
+-------------------------------------------------------------------------------
+
+[ERR 1] RIB non-alphanumerique -> BLOQUE
+  custom_rib         : CI059-0001-0012-3456-7890
+  Effet : throw "RIB invalide : seuls les caracteres alphanumeriques..."
+
+[ERR 2] RIB de longueur != 24 -> AVERTISSEMENT (non bloquant)
+  custom_rib         : CI05900010012345        (16 caracteres)
+  Effet : msgprint "RIB de longueur inhabituelle"
+          (code banque derive = CI059)
+
+[ERR 3] Code banque non-alphanumerique -> BLOQUE
+  custom_bank_code   : 01@89
+  Effet : throw "Code banque invalide : seuls les caracteres alphanumeriques..."
+
+[ERR 4] Code banque de longueur != 5 -> AVERTISSEMENT (non bloquant)
+  custom_bank_code   : CI0590                  (6 caracteres)
+  Effet : msgprint "Code banque de longueur inhabituelle"
+
+
+-------------------------------------------------------------------------------
+ DECOMPOSITION D'UN RIB UEMOA (exemple CAS 1)
+-------------------------------------------------------------------------------
+  CI059 | 00010 | 012345678901 | 23
+  -----   -----   ------------   --
+  banque  guichet  n. de compte  cle
+   (5)     (5)        (12)        (2)              total = 24
+
+
+-------------------------------------------------------------------------------
+ NOTES
+-------------------------------------------------------------------------------
+- Les BIC autres que BOA (AFRICIAB) sont ILLUSTRATIFS : verifier les vrais codes
+  des banques beneficiaires avant un test d'integration reel.
+- Les cles de controle des IBAN ne sont pas calculees ici (le code ne fait que
+  iban[4:], sans mod-97) : sans importance pour les tests fonctionnels.
