@@ -1,0 +1,202 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-06-07 14:48:24.095342",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "source_section",
+  "reference_doctype",
+  "reference_name",
+  "column_break_src",
+  "beneficiary_name",
+  "status",
+  "amount_section",
+  "amount",
+  "currency",
+  "sens",
+  "column_break_amt",
+  "transfer_date",
+  "transfer_label",
+  "debit_section",
+  "debit_bban_code",
+  "column_break_debit",
+  "debit_source_account",
+  "credit_section",
+  "credit_bban_code",
+  "credit_swift_code",
+  "column_break_credit",
+  "credit_source_account",
+  "note_section",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "source_section",
+   "fieldtype": "Section Break",
+   "label": "Document à Payer"
+  },
+  {
+   "fieldname": "reference_doctype",
+   "fieldtype": "Select",
+   "label": "Type de Document",
+   "options": "\nPurchase Invoice\nExpense Claim\nSalary Slip",
+   "read_only": 1,
+   "in_list_view": 1,
+   "columns": 2,
+   "description": "Défini automatiquement par le Type de Paiement du lot."
+  },
+  {
+   "fieldname": "reference_name",
+   "fieldtype": "Dynamic Link",
+   "label": "Document à Payer",
+   "options": "reference_doctype",
+   "in_list_view": 1,
+   "columns": 3,
+   "description": "Sélectionnez le document à payer : les coordonnées et le montant se remplissent automatiquement."
+  },
+  {
+   "fieldname": "column_break_src",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "beneficiary_name",
+   "fieldtype": "Data",
+   "label": "Bénéficiaire",
+   "in_list_view": 1,
+   "columns": 2,
+   "read_only_depends_on": "eval:doc.reference_name"
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Statut de la Ligne",
+   "options": "Draft\nValidated\nError",
+   "read_only": 1
+  },
+  {
+   "fieldname": "amount_section",
+   "fieldtype": "Section Break",
+   "label": "Montant & Échéance"
+  },
+  {
+   "fieldname": "amount",
+   "fieldtype": "Currency",
+   "label": "Montant",
+   "in_list_view": 1,
+   "columns": 2,
+   "options": "currency",
+   "reqd": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Devise",
+   "options": "Currency",
+   "read_only_depends_on": "eval:doc.reference_name"
+  },
+  {
+   "default": "DR",
+   "fieldname": "sens",
+   "fieldtype": "Select",
+   "label": "Sens",
+   "options": "DR\nC\nD",
+   "description": "Sens de l'opération (spec V0 : défaut « DR »)."
+  },
+  {
+   "fieldname": "column_break_amt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "transfer_date",
+   "fieldtype": "Date",
+   "label": "Date de Virement",
+   "read_only": 1,
+   "description": "Jour de transmission du lot à la BOA. Estampillée par le système à l'envoi ; non modifiable."
+  },
+  {
+   "fieldname": "transfer_label",
+   "fieldtype": "Data",
+   "label": "Motif du Virement"
+  },
+  {
+   "fieldname": "debit_section",
+   "fieldtype": "Section Break",
+   "label": "Compte Émetteur (Débit)",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "debit_bban_code",
+   "fieldtype": "Data",
+   "label": "Code Banque (Débit)",
+   "description": "Code banque de l'émetteur (5 premiers car. du RIB), dérivé automatiquement.",
+   "read_only_depends_on": "eval:doc.reference_name"
+  },
+  {
+   "fieldname": "column_break_debit",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "debit_source_account",
+   "fieldtype": "Data",
+   "label": "Compte à Débiter (RIB)",
+   "read_only_depends_on": "eval:doc.reference_name"
+  },
+  {
+   "fieldname": "credit_section",
+   "fieldtype": "Section Break",
+   "label": "Compte Bénéficiaire (Crédit)",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "credit_bban_code",
+   "fieldtype": "Data",
+   "label": "Code Banque (Crédit)",
+   "description": "Code banque du bénéficiaire (5 premiers car. du RIB), dérivé automatiquement.",
+   "read_only_depends_on": "eval:doc.reference_name"
+  },
+  {
+   "fieldname": "credit_swift_code",
+   "fieldtype": "Data",
+   "label": "SWIFT Bénéficiaire",
+   "read_only_depends_on": "eval:doc.reference_name"
+  },
+  {
+   "fieldname": "column_break_credit",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "credit_source_account",
+   "fieldtype": "Data",
+   "label": "Compte à Créditer (RIB)",
+   "read_only_depends_on": "eval:doc.reference_name"
+  },
+  {
+   "fieldname": "note_section",
+   "fieldtype": "Section Break",
+   "label": "Note"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description / Note"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-06-11 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "name": "BOA Payment Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

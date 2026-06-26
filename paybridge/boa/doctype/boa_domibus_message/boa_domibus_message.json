@@ -1,0 +1,174 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "BOA-MSG-.YYYY.-.#####",
+ "creation": "2026-06-10 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "message_section",
+  "message_id",
+  "column_break_msg2",
+  "direction",
+  "status",
+  "parties_section",
+  "from_party_id",
+  "to_party_id",
+  "reference_section",
+  "payment_batch",
+  "original_message_id",
+  "column_break_ref2",
+  "payload_file",
+  "received_at",
+  "error_section",
+  "business_status",
+  "reason_code",
+  "reason_detail",
+  "error_detail"
+ ],
+ "fields": [
+  {
+   "fieldname": "message_section",
+   "fieldtype": "Section Break",
+   "label": "Message"
+  },
+  {
+   "fieldname": "message_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "ID Message",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "column_break_msg2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Direction",
+   "options": "SEND\nRECEIVE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Statut",
+   "options": "\nWAITING_FOR_RETRY\nREADY_TO_SEND\nSEND_ENQUEUED\nSEND_IN_PROGRESS\nSENT\nWAITING_FOR_RECEIPT\nACKNOWLEDGED\nACKNOWLEDGED_WITH_WARNING\nSEND_ATTEMPT_FAILED\nSEND_FAILURE\nNOT_FOUND\nRECEIVED\nDELIVERED\nFAILED"
+  },
+  {
+   "fieldname": "parties_section",
+   "fieldtype": "Section Break",
+   "label": "Parties"
+  },
+  {
+   "fieldname": "from_party_id",
+   "fieldtype": "Data",
+   "label": "De (Party ID)"
+  },
+  {
+   "fieldname": "to_party_id",
+   "fieldtype": "Data",
+   "label": "À (Party ID)"
+  },
+  {
+   "fieldname": "reference_section",
+   "fieldtype": "Section Break",
+   "label": "Référence"
+  },
+  {
+   "fieldname": "payment_batch",
+   "fieldtype": "Link",
+   "label": "Lot de Paiement",
+   "options": "BOA Payment Batch"
+  },
+  {
+   "fieldname": "original_message_id",
+   "fieldtype": "Data",
+   "label": "ID Message Original (réponse)"
+  },
+  {
+   "fieldname": "column_break_ref2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "payload_file",
+   "fieldtype": "Attach",
+   "label": "Fichier Payload"
+  },
+  {
+   "fieldname": "received_at",
+   "fieldtype": "Datetime",
+   "label": "Reçu le"
+  },
+  {
+   "fieldname": "error_section",
+   "fieldtype": "Section Break",
+   "label": "Erreur / Compte rendu BOA (pain.002)"
+  },
+  {
+   "fieldname": "business_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Statut Métier (GrpSts)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reason_code",
+   "fieldtype": "Data",
+   "label": "Code Motif (Cd)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reason_detail",
+   "fieldtype": "Small Text",
+   "label": "Motif Détaillé (AddtlInf)",
+   "read_only": 1
+  },
+  {
+   "fieldname": "error_detail",
+   "fieldtype": "Text",
+   "label": "Détail Erreur (compte rendu complet)",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-10 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "name": "BOA Domibus Message",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "export": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BOA Manager"
+  },
+  {
+   "read": 1,
+   "role": "BOA User"
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "message_id"
+}

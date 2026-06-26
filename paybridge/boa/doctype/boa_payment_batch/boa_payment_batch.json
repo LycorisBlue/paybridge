@@ -1,0 +1,294 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "BOA-BATCH-.YYYY.-.#####",
+ "creation": "2026-06-07 13:06:53.919717",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "information_section",
+  "batch_name",
+  "company",
+  "payment_type",
+  "column_break_info2",
+  "transaction_date",
+  "status",
+  "amended_from",
+  "payment_items_section",
+  "items",
+  "totals_section",
+  "total_amount",
+  "items_count",
+  "currency",
+  "domibus_section",
+  "domibus_message_id",
+  "original_message_ref",
+  "domibus_status",
+  "column_break_domibus2",
+  "csv_file",
+  "last_status_check",
+  "retry_count",
+  "notes_section",
+  "rejection_reason",
+  "notes",
+  "status_history_section",
+  "status_history"
+ ],
+ "fields": [
+  {
+   "fieldname": "information_section",
+   "fieldtype": "Section Break",
+   "label": "Information"
+  },
+  {
+   "fieldname": "batch_name",
+   "fieldtype": "Data",
+   "label": "Nom du Lot",
+   "description": "Libellé optionnel. À défaut, l'identifiant auto (BOA-BATCH-…) sert de titre."
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Société",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "default": "Purchase Invoice",
+   "fieldname": "payment_type",
+   "fieldtype": "Select",
+   "label": "Type de Paiement",
+   "options": "Purchase Invoice\nExpense Claim\nSalary Slip\nManual",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_info2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "transaction_date",
+   "fieldtype": "Date",
+   "label": "Date de Transaction",
+   "reqd": 1
+  },
+  {
+   "default": "Draft",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Statut",
+   "options": "Draft\nQueued\nSent\nAcknowledged\nConfirmed\nRejected\nFailed\nCancelled",
+   "read_only": 1,
+   "in_standard_filter": 1,
+   "description": "Cycle bancaire : Queued (soumis) → Sent (transmis) → Acknowledged (reçu par la BOA) → Confirmed (virement exécuté) / Rejected (refusé) ; Failed = échec technique d'envoi."
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amendé depuis",
+   "no_copy": 1,
+   "options": "BOA Payment Batch",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_items_section",
+   "fieldtype": "Section Break",
+   "label": "Éléments de Paiement"
+  },
+  {
+   "fieldname": "items",
+   "fieldtype": "Table",
+   "label": "Éléments",
+   "options": "BOA Payment Item"
+  },
+  {
+   "fieldname": "totals_section",
+   "fieldtype": "Section Break",
+   "label": "Totaux"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Montant Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "items_count",
+   "fieldtype": "Int",
+   "label": "Nb Paiements",
+   "read_only": 1
+  },
+  {
+   "fetch_from": "company.default_currency",
+   "fetch_if_empty": 1,
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Devise",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "domibus_section",
+   "fieldtype": "Section Break",
+   "label": "Domibus"
+  },
+  {
+   "fieldname": "domibus_message_id",
+   "fieldtype": "Data",
+   "label": "ID Message Domibus",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "original_message_ref",
+   "fieldtype": "Data",
+   "label": "Réf. Message Original",
+   "no_copy": 1,
+   "read_only": 1,
+   "description": "Identifiant métier (originalMessageId) corrélant l'envoi et la réponse BOA."
+  },
+  {
+   "fieldname": "domibus_status",
+   "fieldtype": "Select",
+   "label": "Statut Domibus",
+   "no_copy": 1,
+   "options": "\nREADY_TO_SEND\nREADY_TO_PULL\nBEING_PULLED\nWAITING_FOR_RETRY\nSEND_ENQUEUED\nSEND_IN_PROGRESS\nSENT\nWAITING_FOR_RECEIPT\nACKNOWLEDGED\nACKNOWLEDGED_WITH_WARNING\nSEND_ATTEMPT_FAILED\nSEND_FAILURE\nNOT_FOUND\nRECEIVED\nRECEIVED_WITH_WARNINGS\nDELETED\nDOWNLOADED\nDELIVERED\nFAILED",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_domibus2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "csv_file",
+   "fieldtype": "Attach",
+   "label": "Fichier CSV",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "last_status_check",
+   "fieldtype": "Datetime",
+   "label": "Dernière Vérification",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "retry_count",
+   "fieldtype": "Int",
+   "label": "Nb Tentatives",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "notes_section",
+   "fieldtype": "Section Break",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "rejection_reason",
+   "fieldtype": "Text",
+   "label": "Raison de Rejet",
+   "no_copy": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Text Editor",
+   "label": "Notes"
+  },
+  {
+   "fieldname": "status_history_section",
+   "fieldtype": "Section Break",
+   "label": "Historique de Statut"
+  },
+  {
+   "allow_on_submit": 1,
+   "description": "Journal append-only des transitions d'état (chaîné par hash). Alimenté par le système.",
+   "fieldname": "status_history",
+   "fieldtype": "Table",
+   "label": "Historique de Statut",
+   "options": "BOA Payment Status History",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-06-10 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "name": "BOA Payment Batch",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "read": 1,
+   "role": "BOA Manager",
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "BOA User"
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Grey",
+   "title": "Draft"
+  },
+  {
+   "color": "Yellow",
+   "title": "Queued"
+  },
+  {
+   "color": "Blue",
+   "title": "Sent"
+  },
+  {
+   "color": "Cyan",
+   "title": "Acknowledged"
+  },
+  {
+   "color": "Green",
+   "title": "Confirmed"
+  },
+  {
+   "color": "Red",
+   "title": "Rejected"
+  },
+  {
+   "color": "Orange",
+   "title": "Failed"
+  },
+  {
+   "color": "Grey",
+   "title": "Cancelled"
+  }
+ ],
+ "title_field": "batch_name"
+}

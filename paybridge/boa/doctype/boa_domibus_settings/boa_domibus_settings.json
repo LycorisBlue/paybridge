@@ -1,0 +1,327 @@
+{
+ "actions": [],
+ "creation": "2026-06-07 12:10:27.255247",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "server_configuration_section",
+  "environment",
+  "endpoint_url",
+  "prod_endpoint_url",
+  "request_timeout",
+  "column_break_auth",
+  "use_authentication",
+  "username",
+  "password",
+  "column_break_tls",
+  "use_tls",
+  "client_certificate",
+  "client_private_key",
+  "ca_certificate",
+  "debit_account_section",
+  "debit_bank_account",
+  "sender_configuration_section",
+  "company_party_id",
+  "original_sender",
+  "initiator_role",
+  "message_id_prefix",
+  "column_break_receiver",
+  "receiver_party_id",
+  "final_recipient",
+  "responder_role",
+  "bank_id",
+  "service_configuration_section",
+  "service_type",
+  "service_value",
+  "action",
+  "file_format",
+  "column_break_service2",
+  "processing_type",
+  "agreement_ref",
+  "conversation_id_prefix",
+  "retry_section",
+  "max_retry_count",
+  "retry_interval_minutes",
+  "column_break_retry2",
+  "poll_interval_minutes",
+  "auto_check_status",
+  "auto_send_on_submit"
+ ],
+ "fields": [
+  {
+   "fieldname": "server_configuration_section",
+   "fieldtype": "Section Break",
+   "label": "Configuration Serveur"
+  },
+  {
+   "default": "TEST",
+   "fieldname": "environment",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Environnement",
+   "options": "TEST\nPROD",
+   "reqd": 1
+  },
+  {
+   "fieldname": "endpoint_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "URL Endpoint (TEST)",
+   "reqd": 1
+  },
+  {
+   "fieldname": "prod_endpoint_url",
+   "fieldtype": "Data",
+   "label": "URL Endpoint (PROD)"
+  },
+  {
+   "default": "30",
+   "fieldname": "request_timeout",
+   "fieldtype": "Int",
+   "label": "Timeout Requ\u00eate (sec)"
+  },
+  {
+   "fieldname": "column_break_auth",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "use_authentication",
+   "fieldtype": "Check",
+   "label": "Utiliser l'Authentification"
+  },
+  {
+   "depends_on": "use_authentication",
+   "fieldname": "username",
+   "fieldtype": "Data",
+   "label": "Nom d'Utilisateur"
+  },
+  {
+   "depends_on": "use_authentication",
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Mot de Passe"
+  },
+  {
+   "fieldname": "column_break_tls",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "0",
+   "fieldname": "use_tls",
+   "fieldtype": "Check",
+   "label": "Utiliser TLS/mTLS"
+  },
+  {
+   "depends_on": "use_tls",
+   "fieldname": "client_certificate",
+   "fieldtype": "Attach",
+   "label": "Certificat Client"
+  },
+  {
+   "depends_on": "use_tls",
+   "fieldname": "client_private_key",
+   "fieldtype": "Password",
+   "label": "Cl\u00e9 Priv\u00e9e Client"
+  },
+  {
+   "depends_on": "use_tls",
+   "fieldname": "ca_certificate",
+   "fieldtype": "Attach",
+   "label": "Certificat CA"
+  },
+  {
+   "description": "Compte bancaire BOA de la soci\u00e9t\u00e9, d\u00e9bit\u00e9 pour tous les virements du lot. Toutes les coordonn\u00e9es (RIB, code banque, SWIFT) proviennent de cet enregistrement Compte Bancaire : source unique. \u00c0 d\u00e9faut, le compte soci\u00e9t\u00e9 par d\u00e9faut d'ERPNext est utilis\u00e9.",
+   "fieldname": "debit_account_section",
+   "fieldtype": "Section Break",
+   "label": "Compte \u00c9metteur (\u00e0 D\u00e9biter)"
+  },
+  {
+   "fieldname": "debit_bank_account",
+   "fieldtype": "Link",
+   "label": "Compte Bancaire",
+   "options": "Bank Account"
+  },
+  {
+   "fieldname": "sender_configuration_section",
+   "fieldtype": "Section Break",
+   "label": "Configuration Exp\u00e9diteur"
+  },
+  {
+   "fieldname": "company_party_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Party ID Soci\u00e9t\u00e9",
+   "reqd": 1
+  },
+  {
+   "fieldname": "original_sender",
+   "fieldtype": "Data",
+   "label": "Exp\u00e9diteur Original"
+  },
+  {
+   "default": "http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/sender",
+   "fieldname": "initiator_role",
+   "fieldtype": "Data",
+   "label": "R\u00f4le Initiateur"
+  },
+  {
+   "fieldname": "message_id_prefix",
+   "fieldtype": "Data",
+   "label": "Pr\u00e9fixe ID Message"
+  },
+  {
+   "fieldname": "column_break_receiver",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "receiver_party_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Party ID R\u00e9cepteur BOA",
+   "reqd": 1
+  },
+  {
+   "fieldname": "final_recipient",
+   "fieldtype": "Data",
+   "label": "Destinataire Final"
+  },
+  {
+   "default": "http://docs.oasis-open.org/ebxml-msg/ebms/v3.0/ns/core/200704/receiver",
+   "fieldname": "responder_role",
+   "fieldtype": "Data",
+   "label": "R\u00f4le R\u00e9pondeur"
+  },
+  {
+   "fieldname": "bank_id",
+   "fieldtype": "Data",
+   "label": "ID Banque"
+  },
+  {
+   "fieldname": "service_configuration_section",
+   "fieldtype": "Section Break",
+   "label": "Configuration Service"
+  },
+  {
+   "default": "tc1",
+   "fieldname": "service_type",
+   "fieldtype": "Data",
+   "label": "Type de Service"
+  },
+  {
+   "default": "PAYMENTS",
+   "fieldname": "service_value",
+   "fieldtype": "Data",
+   "label": "Valeur Service"
+  },
+  {
+   "default": "DomesticCreditTransfer",
+   "fieldname": "action",
+   "fieldtype": "Data",
+   "label": "Action"
+  },
+  {
+   "default": "STANDARD_CSV",
+   "fieldname": "file_format",
+   "fieldtype": "Data",
+   "label": "Format Fichier"
+  },
+  {
+   "fieldname": "column_break_service2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "BATCH",
+   "fieldname": "processing_type",
+   "fieldtype": "Select",
+   "label": "Type de Traitement",
+   "options": "BATCH\nSINGLE\nUNIT"
+  },
+  {
+   "fieldname": "agreement_ref",
+   "fieldtype": "Data",
+   "label": "R\u00e9f\u00e9rence Accord"
+  },
+  {
+   "fieldname": "conversation_id_prefix",
+   "fieldtype": "Data",
+   "label": "Pr\u00e9fixe ID Conversation"
+  },
+  {
+   "fieldname": "retry_section",
+   "fieldtype": "Section Break",
+   "label": "Tentatives"
+  },
+  {
+   "default": "3",
+   "fieldname": "max_retry_count",
+   "fieldtype": "Int",
+   "label": "Nb Max Tentatives"
+  },
+  {
+   "default": "5",
+   "fieldname": "retry_interval_minutes",
+   "fieldtype": "Int",
+   "label": "Intervalle Tentatives (min)"
+  },
+  {
+   "fieldname": "column_break_retry2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "10",
+   "fieldname": "poll_interval_minutes",
+   "fieldtype": "Int",
+   "label": "Intervalle V\u00e9rification (min)"
+  },
+  {
+   "default": "1",
+   "fieldname": "auto_check_status",
+   "fieldtype": "Check",
+   "label": "V\u00e9rification Automatique"
+  },
+  {
+   "default": "1",
+   "description": "Transmet le CSV \u00e0 Domibus automatiquement d\u00e8s qu'un lot est valid\u00e9 (soumis).",
+   "fieldname": "auto_send_on_submit",
+   "fieldtype": "Check",
+   "label": "Envoi Automatique \u00e0 la Validation"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-06-23 11:22:12.107476",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "name": "BOA Domibus Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "read": 1,
+   "role": "BOA Manager",
+   "write": 1
+  },
+  {
+   "read": 1,
+   "role": "BOA User"
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,153 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-06-07 18:12:52.906870",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "payment_batch",
+  "action_type",
+  "direction",
+  "timestamp",
+  "message_id",
+  "domibus_status",
+  "column_break_log2",
+  "status_code",
+  "duration_ms",
+  "details_section",
+  "request_payload",
+  "request_envelope",
+  "column_break_details2",
+  "response_soap",
+  "error_section",
+  "error_detail"
+ ],
+ "fields": [
+  {
+   "fieldname": "payment_batch",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Lot de Paiement",
+   "options": "BOA Payment Batch",
+   "reqd": 1
+  },
+  {
+   "fieldname": "action_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type Action",
+   "options": "Submit\nCheck Status\nRetrieve"
+  },
+  {
+   "fieldname": "direction",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Direction",
+   "options": "Outbound\nInbound"
+  },
+  {
+   "fieldname": "timestamp",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Horodatage",
+   "reqd": 1
+  },
+  {
+   "fieldname": "message_id",
+   "fieldtype": "Data",
+   "label": "ID Message Domibus"
+  },
+  {
+   "fieldname": "domibus_status",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Statut Domibus"
+  },
+  {
+   "fieldname": "column_break_log2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status_code",
+   "fieldtype": "Data",
+   "label": "Code HTTP"
+  },
+  {
+   "fieldname": "duration_ms",
+   "fieldtype": "Int",
+   "label": "Durée (ms)"
+  },
+  {
+   "fieldname": "details_section",
+   "fieldtype": "Section Break",
+   "label": "Détails"
+  },
+  {
+   "fieldname": "request_payload",
+   "fieldtype": "Code",
+   "label": "Payload envoyé (CSV)",
+   "options": "Text"
+  },
+  {
+   "description": "Enveloppe SOAP/ebMS réellement transmise (routage : PartyId, Service, Action, MessageProperties) — audit de non-répudiation.",
+   "fieldname": "request_envelope",
+   "fieldtype": "Code",
+   "label": "Enveloppe SOAP envoyée",
+   "options": "XML"
+  },
+  {
+   "fieldname": "column_break_details2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "response_soap",
+   "fieldtype": "Code",
+   "label": "Réponse SOAP",
+   "options": "XML"
+  },
+  {
+   "fieldname": "error_section",
+   "fieldtype": "Section Break",
+   "label": "Erreurs"
+  },
+  {
+   "fieldname": "error_detail",
+   "fieldtype": "Text",
+   "label": "Détail Erreur"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-06-10 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "BOA",
+ "name": "BOA Payment Log",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1
+  },
+  {
+   "export": 1,
+   "read": 1,
+   "report": 1,
+   "role": "BOA Manager"
+  },
+  {
+   "read": 1,
+   "role": "BOA User"
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
